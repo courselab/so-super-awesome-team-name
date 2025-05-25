@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: so-super-awesome-team-name
+Upstream-Contact: Arthur Vergaças <vergacas.arthur@bcg.com>
+Source: https://github.com/courselab/so-super-awesome-team-name.git
+
+Files: */.dist
+Copyright: Arthur Vergaças <vergacas.arthur@bcg.com>
+License: CC0-1.0
+

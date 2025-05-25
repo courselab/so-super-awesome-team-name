@@ -1,0 +1,15 @@
+
+{% for copyright_line in copyright_lines %}
+   {{ copyright_line }}
+{% endfor %}
+{% if copyright_lines and spdx_expressions %}
+  
+{% endif %}
+{% for expression in spdx_expressions %}
+   SPDX-License-Identifier: {{ expression }}
+{% endfor %}
+
+ This file is a derivative of SYSeg (https://gitlab.com/monaco/syseg)
+ and includes modifications made by the following author(s):
+ <CONTRIBUTOR>
+
